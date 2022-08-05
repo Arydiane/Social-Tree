@@ -1,6 +1,7 @@
 :root {
     --body-bg-color: #FAF7FD;
     --purple: #BB99DD;
+    --purple2: #d8c8e8a2;
 }
 
 * {
@@ -15,13 +16,12 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-main {
+#container {
     width: 60%;
     max-width: 500px;
-    padding: 50px;
+    padding: 40px;
     margin: 0 auto;
     text-align: center;
-    background-color: aquamarine;
 }
 
 .foto-perfil {
@@ -43,8 +43,11 @@ main {
     border: 2px solid var(--purple);
     border-radius: 5px;
     font-weight: bold;
-}
 
+}
+.lista-links li:hover  {
+    background-color: var(--purple2);
+}
 .link {
     text-decoration: none;
     color: var(--purple);
@@ -53,4 +56,16 @@ main {
 .lista-redes-sociais {
     display: flex;
     justify-content: space-evenly;
+}
+
+.img-rsociais:hover {
+    transform: scale(125%);
+}
+
+/*para dispositivos móveis - início */
+@media (max-width: 480px) {
+    #container {
+        width: 80%;
+        padding: 40px 10px;
+    }
 }
