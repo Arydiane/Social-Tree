@@ -1,0 +1,55 @@
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--body-bg-color);
+    color: var(--purple);
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    width: 60%;
+    padding: 50px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.foto-perfil {
+    border-radius: 50%;
+    border: 2px solid var(--purple);
+    padding: 5px;
+    width: 40%;
+}
+
+.lista-links, 
+.lista-redes-sociais {
+    list-style-type: none;
+    padding: 20px 0;
+}
+
+.lista-links li {
+    padding: 5px 0;
+    margin: 15px 0;
+    border: 2px solid var(--purple);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--purple);
+}
+
+.lista-redes-sociais {
+    display: flex;
+    justify-content: space-evenly;
+}
