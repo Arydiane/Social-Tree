@@ -9,11 +9,11 @@ de redes sociais para direcionar o usuário para o local escolhido.
 ### Mobile
 
 <p align="center">
-  <img alt="Social Tree - Versão mobile" title="Social Tree" src="./img/TELA-2.PNG" width="200px">
+  <img alt="Social Tree - Versão mobile" title="Social Tree" src="./Social-Tree/img/TELA-2.PNG" width="200px">
 </p>
 
 ### Web
 
 <p align="center">
-  <img alt="Social Tree - Versão web" title="Social Tree" src="./img/TELA-1.PNG" width="400px">
+  <img alt="Social Tree - Versão web" title="Social Tree" src="./Social-Tree/img/TELA-1.PNG" width="400px">
 </p>
