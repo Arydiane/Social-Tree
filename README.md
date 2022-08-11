@@ -1,10 +1,10 @@
-# Social-Tree
+# Social-Tree 
 Desafio: Social-Tree do Rocketseat 
 
 Uma página com uma lista de links (menu) que pode ser usada em perfis
 de redes sociais para direcionar o usuário para o local escolhido.
 
-## Layout
+## 💻 Layout  
 
 ### Mobile
 
@@ -17,3 +17,9 @@ de redes sociais para direcionar o usuário para o local escolhido.
 <p align="center">
   <img alt="Social Tree - Versão web" title="Social Tree" src="./Social-Tree/img/TELA-1.PNG" width="400px">
 </p>
+
+ ## 🔧 Tecnologias 
+
+As tecnologias usadas foram: 
+* HTML
+* CSS
